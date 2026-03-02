@@ -1,39 +1,70 @@
 ---
 import GitHub from "./icons/GitHub.astro"
-import NextJS from "./icons/NextJS.astro"
-import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
 const TAGS = {
-  NEXT: {
-    name: "Next.js",
-    class: "bg-black text-white",
-    icon: NextJS,
+  REACT: {
+    name: "React.js",
+    class: "bg-slate-800 text-white",
   },
-  TAILWIND: {
-    name: "Tailwind CSS",
-    class: "bg-[#003159] text-white",
-    icon: Tailwind,
+  SPRING: {
+    name: "Spring Boot",
+    class: "bg-emerald-700 text-white",
+  },
+  DJANGO: {
+    name: "Django",
+    class: "bg-green-900 text-white",
+  },
+  MYSQL: {
+    name: "MySQL",
+    class: "bg-blue-900 text-white",
+  },
+  ANDROID: {
+    name: "Android (Java)",
+    class: "bg-lime-700 text-white",
+  },
+  PYTHON: {
+    name: "Python",
+    class: "bg-yellow-600 text-white",
   },
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "AhaSlides",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "An online poll maker for interactive presentations and audience engagement, designed to create live polls, collect real-time responses, and instantly visualize results.",
+    link: "https://ahaslides.com/features/online-poll-maker/?utm_source=google&utm_medium=cpc&utm_campaign=search_asfeature&utm_content=poll&gad_source=1&gad_campaignid=22764176322&gbraid=0AAAAAo_X7kgpXaJQfEAsPsno3QAlmkAqX&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FaSRZXFc_epA3ADHldn0T1AuEYI6_lBy67xyb4t5JPLJvzENjW9DPBoCs70QAvD_BwE",
+    github: "#",
+    image: "/projects/poll-pro.webp",
+    tags: [TAGS.REACT, TAGS.SPRING, TAGS.MYSQL],
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+    title: "Peso Tracker",
     description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "A personal finance tracker focused on Philippine Peso (PHP), built to record income and expenses, monitor budgets, and help users stay disciplined with daily money management.",
+    link: "https://peso-tracker-xyz.streamlit.app/",
+    github: "#",
+    image: "/projects/peso-tracker.png",
+    tags: [TAGS.ANDROID, TAGS.MYSQL],
+  },
+  {
+    title: "Poll Management System",
+    description:
+      "A full-stack poll management platform developed with Spring Boot and React, emphasizing maintainability and business-ready workflows.",
+    link: "https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwiK7NfHrYGTAxU-mqYDHWCgOu0YACICCAEQARoCdGI&co=1&ase=2&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FWx3w-KOvDYGWhXgMyCcFcRNWFBKXwJgG3kRCwNE1FDP4HSe5Q6MdhoCMRoQAvD_BwE&ei=RZWlaeyIHO2H2roP1p3l0Ak&cid=CAAS3QHkaGzZ_F17Jm-zaIbwQ6lxRMlTU9f_B2RvQcfR7yxeIrmLEBKSkL6Cx6xhTxGbtwM0MaY1EJBAVS7yzqAXedG9hJQMeHFkugBICjfB4E7_XbkMI3FX6Yc4iLj0uwhZZkUFgy0ZWYVWtOaeskE_FRbsKOdood66m94rkzDPrb29qrsMSZdgYdl5lRt5sDt0zKBzJ3zDbwU2wE4Dgl-p10jBcTgANKJ8bDXs3bZR49MSN65sWTHSMmNJ-q8GwmBgxRedx1WR4YJuMa_7MTu6zbAw-MbPHkMESm-4f008TQ&cce=2&category=acrcp_v1_32&sig=AOD64_2HHB0NPNI152_X8pUiEdFB8G5vPQ&q&sqi=2&nis=4&adurl=https://ap.surveymars.com/poll/?utm_feeditemid%3D%26utm_device%3Dc%26utm_term%3Donline%2520voting%2520software%26utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_campaign%3D%26hsa_cam%3D22549814568%26hsa_grp%3D189741644052%26hsa_mt%3Dp%26hsa_src%3Dg%26hsa_ad%3D771431101121%26hsa_acc%3D%7B429-593-7186%7D%26hsa_net%3Dadwords%26hsa_kw%3Donline%2520voting%2520software%26hsa_tgt%3Dkwd-311295614866%26hsa_ver%3D3%26gad_source%3D1%26gad_campaignid%3D22549814568%26gbraid%3D0AAAAA_FcV190kArmDgMzLKMmIqQHPaZqQ%26gclid%3DCjwKCAiAh5XNBhAAEiwA_Bu8FWx3w-KOvDYGWhXgMyCcFcRNWFBKXwJgG3kRCwNE1FDP4HSe5Q6MdhoCMRoQAvD_BwE&ved=2ahUKEwisv8zHrYGTAxXtg1YBHdZOGZoQ0Qx6BAgaEAE",
+    github: "#",
+    image: "/projects/poll-management-system.jpg",
+    tags: [TAGS.SPRING, TAGS.REACT, TAGS.MYSQL],
+  },
+  {
+    title: "Vibrant Mind",
+    description:
+      "A concept project focused on fitness and health tracking, combining conversational UX ideas with data visualization exploration in Python.",
+    link: "#",
+    github: "https://github.com/DioneCabigas/Student-Health-and-Counseling-System-.git",
+    image: "/projects/health-care-chatbot.png",
+    tags: [TAGS.DJANGO, TAGS.PYTHON],
   },
 ]
 ---
@@ -43,15 +74,31 @@ const PROJECTS = [
     PROJECTS.map(({ image, title, description, tags, link, github }) => (
     <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
   <div class="w-full md:w-1/2">
-    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-      <img alt="Recién llegado vs 5 años en Nueva Zelanda" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
-    </div>
+    {link && link !== "#" ? (
+      <a href={link} target="_blank" rel="noopener noreferrer" aria-label={`Open ${title}`}>
+        <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+          <img alt={title} class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+        </div>
+      </a>
+    ) : (
+      <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+        <img alt={title} class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+      </div>
+    )}
   </div>
 
   <div class="w-full md:w-1/2 md:max-w-lg">
-    <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
-      {title}
-    </h3>
+    {link && link !== "#" ? (
+      <a href={link} target="_blank" rel="noopener noreferrer" class="hover:underline">
+        <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
+          {title}
+        </h3>
+      </a>
+    ) : (
+      <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
+        {title}
+      </h3>
+    )}
     <div class="flex flex-wrap mt-2">
       <ul class="flex flex-row mb-2 gap-x-2">
           {tags.map((tag) => (
@@ -59,7 +106,6 @@ const PROJECTS = [
               <span
                 class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
               >
-                <tag.icon class="size-4" />
                 {tag.name}
               </span>
             </li>

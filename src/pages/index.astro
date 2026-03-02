@@ -2,9 +2,11 @@
 import Layout from "@/layouts/Layout.astro"
 
 import AboutMe from "@/components/AboutMe.astro"
+import Contact from "@/components/Contact.astro"
 import Briefcase from "@/components/icons/Briefcase.astro"
 import CodeIcon from "@/components/icons/Code.astro"
 import Experience from "@/components/Experience.astro"
+import MailIcon from "@/components/icons/Mail.astro"
 import ProfileCheck from "@/components/icons/ProfileCheck.astro"
 import Projects from "@/components/Projects.astro"
 import SectionContainer from "@/components/SectionContainer.astro"
@@ -13,8 +15,8 @@ import TitleSection from "@/components/TitleSection.astro"
 ---
 
 <Layout
-  title="Porfolio de midudev - Desarrollador y Programador Web con 15 años de experiencia"
-  description="Contrata a midudev para crear tu aplicación web o móvil. Desarrollador Web y Creador de Contenido. Especializado en crear aplicaciones únicas."
+  title="Nico Rivera Portfolio - Web Developer, Web Designer, and Tech Entrepreneur"
+  description="Portfolio of Nico Rivera. Web Developer, Web Designer, and aspiring tech entrepreneur focused on practical, business-driven digital solutions."
 >
   <main class="px-4">
     <SectionContainer class="py-16 md:py-36">
@@ -22,28 +24,36 @@ import TitleSection from "@/components/TitleSection.astro"
     </Hero>
     </SectionContainer>
     <div class="space-y-24">
-    <SectionContainer id="experiencia">
+    <SectionContainer id="experience">
       <TitleSection>
         <Briefcase class="size-8" />
-        Experiencia laboral
+        Professional Background
       </TitleSection>
       <Experience />
     </SectionContainer>
 
-    <SectionContainer id="proyectos">
+    <SectionContainer id="projects">
       <TitleSection>
         <CodeIcon class="size-7" />
-        Proyectos
+        Current Projects
       </TitleSection>
       <Projects />
     </SectionContainer>
 
-    <SectionContainer id="sobre-mi">
+    <SectionContainer id="about">
       <TitleSection>
         <ProfileCheck class="size-8" />
-        Sobre mí
+        About Me
       </TitleSection>
       <AboutMe />
+    </SectionContainer>
+
+    <SectionContainer id="contact">
+      <TitleSection>
+        <MailIcon class="size-8" />
+        Contact
+      </TitleSection>
+      <Contact />
     </SectionContainer>
   </div>
   </main>
