@@ -1,0 +1,7 @@
+---
+import { dilgReferences } from '../data/portfolio.json';
+---
+<aside class="project-references" aria-label="DILG project Facebook references">
+  <div class="references-heading"><span class="facebook-mark" aria-hidden="true">f</span><div><h5>Project in the community</h5><p>Supporting references · Facebook</p></div></div>
+  <div class="reference-links">{dilgReferences.map(reference => <a href={reference.url} target="_blank" rel="noopener noreferrer" aria-label={`DILG ${reference.label.toLowerCase()} on Facebook (opens in a new tab)`}><span>{reference.label}</span><span aria-hidden="true">↗</span></a>)}</div>
+</aside>

@@ -1,0 +1,5 @@
+# Astro's image optimizer and Vite need these native dependency setup scripts.
+# pnpm 10 disables dependency build scripts unless explicitly allowed.
+onlyBuiltDependencies:
+  - esbuild
+  - sharp

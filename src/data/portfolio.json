@@ -1,0 +1,417 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/13Ad7X6YorqVMb368Fya5Vm2xQqWwGvHr32ee247sQXM/edit?gid=0",
+  "snapshotDate": "2026-10-28",
+  "dilgReferences": [
+    {
+      "label": "Project post 01",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02VC5czJBWWrBKwiQLoFY3xZdjBGJYf3ZXqFJEVKUnHa15s43YGGzk9cXegjeuCV6al&id=61557197515954"
+    },
+    {
+      "label": "Project post 02",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0yRoARxj5cuQfesULfpnQgaR2mrp3TjK3vik4jGKvm6niY9mHRCvmwf96vvbyNZK5l&id=61557197515954"
+    },
+    {
+      "label": "Project photo",
+      "url": "https://www.facebook.com/photo.php?fbid=122328009332239917&set=pb.61557197515954.-2207520000&type=3"
+    }
+  ],
+  "projects": [
+    {
+      "id": "kp-forms",
+      "title": "KP Forms – DILG Case Monitoring",
+      "role": "Full-Stack Contributor / DILG Monitoring & Workflows",
+      "contribution": "Contributed to the DILG side of the Katarungang Pambarangay Online Monitoring System across dashboard design, operational workflows, and backend development for monitoring barangay cases. Helped translate monitoring requirements into responsive interfaces, form workflows, and supporting backend functionality.",
+      "stack": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS",
+        "React Hook Form",
+        "Zod",
+        "Radix UI",
+        "jsPDF"
+      ],
+      "outcome": "Contributed to the DILG monitoring experience across the dashboard, workflows, and backend, supporting a centralized system for monitoring cases across barangays.",
+      "summary": "Contributing to the DILG side of the Katarungang Pambarangay Online Monitoring System through dashboard design, operational workflows, and backend development for barangay case monitoring.",
+      "value": "Enables DILG personnel to monitor barangay cases more efficiently and on time through a centralized digital dashboard, reducing reliance on paper-based records and minimizing the risk of lost or misplaced case documents.",
+      "category": "Full-stack",
+      "links": [
+        {
+          "label": "KP Forms Repository",
+          "url": "https://github.com/rainzone01/kpforms_sampleUI"
+        },
+        {
+          "label": "DILG Dashboard Files",
+          "url": "https://drive.google.com/open?id=1Zkqll5EiizvfRVFEkkwipLa1t6OFRXgD"
+        }
+      ]
+    },
+    {
+      "id": "digital-operations",
+      "title": "E-commerce Product Upload & Social Media Engagement",
+      "role": "Operations / Digital Support",
+      "contribution": "Uploaded and quality-checked product listings for Yovino, Toylandia, RetailMNL, and Furnulem; completed social media engagement activities and tracked daily output.",
+      "stack": [
+        "Product data management",
+        "quality assurance",
+        "e-commerce operations",
+        "social media engagement"
+      ],
+      "outcome": "Handled multi-brand product uploads with consistent checking and organized daily accomplishment reporting.",
+      "summary": "Supported day-to-day digital operations by managing product data accurately across multiple brands while completing engagement tasks and documenting output.",
+      "value": "Shows reliability, attention to detail, accuracy, and comfort with digital business processes.",
+      "category": "Operations",
+      "links": [
+        {
+          "label": "Product Upload & QA/QC Samples",
+          "url": "https://drive.google.com/drive/folders/1PqqOKs5YTXLhp-Ri3ZxdjSrdOtPkEqeR?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "id": "pollpro",
+      "title": "PollPro – Poll-Based Social Platform",
+      "role": "Full-Stack Developer / Academic Project",
+      "contribution": "Built a polls-first social platform with authentication, poll creation, voting, reactions, comments, friend suggestions, and a scrolling feed; connected React to Spring Boot APIs and MySQL.",
+      "stack": [
+        "React",
+        "Java",
+        "Spring Boot",
+        "REST API",
+        "MySQL",
+        "Maven",
+        "Git/GitHub"
+      ],
+      "outcome": "Designed normalized relationships for users, polls, options, votes, comments, and follows; integrated frontend and backend features.",
+      "summary": "Developed a full-stack social application demonstrating end-to-end ownership from UI behavior and API integration to relational database design.",
+      "value": "Demonstrates full-stack development, API integration, debugging, data modeling, and requirement implementation.",
+      "category": "Full-stack",
+      "links": [
+        {
+          "label": "PollPro Project Files",
+          "url": "https://drive.google.com/drive/folders/14cI-ADRrv5ykwXeBeTzL1cWsCQibVy1j?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "id": "vibrantmind",
+      "title": "VibrantMind – Student Health & Counseling System",
+      "role": "Backend / Full-Stack Developer",
+      "contribution": "Developed user profiles, patient and staff records, appointment scheduling, health records, prescriptions, dashboards, approvals, and student views.",
+      "stack": [
+        "Python",
+        "Django",
+        "HTML/CSS",
+        "relational data modeling",
+        "authentication",
+        "testing"
+      ],
+      "outcome": "Implemented role-based flows and appointment rules covering upcoming and completed sessions, records, prescriptions, and scheduling.",
+      "summary": "Built a structured Django information system for student health and counseling workflows, including role-based dashboards and appointment management.",
+      "value": "Shows backend design, CRUD development, business-rule implementation, database relationships, and testing awareness.",
+      "category": "Full-stack",
+      "links": [
+        {
+          "label": "Student Health System Repository",
+          "url": "https://github.com/DioneCabigas/Student-Health-and-Counseling-System-"
+        }
+      ]
+    },
+    {
+      "id": "pocket-wise",
+      "title": "Pocket Wise Android App",
+      "role": "Android Developer",
+      "contribution": "Built login, home, profile, and list screens with profile editing, navigation rules, and view binding fixes.",
+      "stack": [
+        "Kotlin",
+        "Android Studio",
+        "View Binding",
+        "mobile UI/navigation"
+      ],
+      "outcome": "Completed a multi-screen Android application flow with editable profile functionality and controlled navigation.",
+      "summary": "Developed a Kotlin Android application with multiple screens, user navigation, and profile-management interactions.",
+      "value": "Demonstrates mobile development fundamentals, Kotlin proficiency, UI implementation, debugging, and navigation handling.",
+      "category": "Mobile",
+      "links": [
+        {
+          "label": "Pocket Wise Android App Proof",
+          "url": "https://drive.google.com/drive/folders/1bIh4nOz_xCv8d5Xh8VREgUEaFfPn3lpv?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "graded-frame",
+      "title": "The Graded Frame – Photography & Film Portfolio",
+      "role": "Frontend / Portfolio Developer",
+      "contribution": "Built a responsive photography and film portfolio, added cinematic transitions, accessible gallery behavior, segmented film playback, reduced-motion support, and a Node.js CI workflow for build/test automation.",
+      "stack": [
+        "React 19",
+        "TypeScript",
+        "Vite/Vinext",
+        "Tailwind CSS",
+        "HLS.js",
+        "Cloudflare/Wrangler",
+        "GitHub Actions"
+      ],
+      "outcome": "Delivered a media-heavy portfolio with responsive UX and automated CI validation.",
+      "summary": "Built and maintained a production-oriented creative portfolio with modern React tooling, streaming media support, accessibility considerations, and CI automation.",
+      "value": "Shows frontend engineering, media handling, accessibility, responsive design, and CI/CD awareness.",
+      "category": "Web",
+      "links": [
+        {
+          "label": "Graded Frame Repository",
+          "url": "https://github.com/ICONicboites/cazi-portfolio"
+        },
+        {
+          "label": "Film Portfolio Files",
+          "url": "https://drive.google.com/drive/folders/1MCcagtOjcA9jM3Enw8kSVoCSZ6tbkJZQ?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "streamlit-portfolio",
+      "title": "MyStreamlitPortfolio",
+      "role": "Python / Streamlit Developer",
+      "contribution": "Created a Streamlit portfolio, configured an earthy-green visual theme, fixed dependency compatibility using flexible version pinning, and added a Dev Container setup.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly",
+        "Altair",
+        "Dev Containers"
+      ],
+      "outcome": "Improved portability and environment reproducibility while presenting projects in an interactive Python-based portfolio.",
+      "summary": "Developed and packaged an interactive Streamlit portfolio with visualization libraries and reproducible development configuration.",
+      "value": "Demonstrates Python application development, dependency management, visualization, and development-environment setup.",
+      "category": "Data & AI",
+      "links": [
+        {
+          "label": "Streamlit Portfolio Repository",
+          "url": "https://github.com/ICONicboites/MyStreamlitPortfolio"
+        }
+      ]
+    },
+    {
+      "id": "sensor101",
+      "title": "Sensor101 – Gesture Energy Ball System",
+      "role": "Computer Vision Developer",
+      "contribution": "Created a gesture-based energy-ball prototype using computer-vision and hand-tracking dependencies.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "NumPy",
+        "computer vision"
+      ],
+      "outcome": "Implemented an interactive vision-based prototype that responds to hand gestures.",
+      "summary": "Built a computer-vision experiment combining webcam processing and gesture recognition for an interactive visual system.",
+      "value": "Shows willingness to work beyond standard CRUD apps and apply computer-vision libraries to interactive experiences.",
+      "category": "Data & AI",
+      "links": [
+        {
+          "label": "Gesture Vision Repository",
+          "url": "https://github.com/ICONicboites/Sensor101"
+        }
+      ]
+    },
+    {
+      "id": "oauth-todo",
+      "title": "Todo List with Google OAuth",
+      "role": "Frontend Developer",
+      "contribution": "Initialized the React Todo application and implemented a Google OAuth authentication flow.",
+      "stack": [
+        "React",
+        "Create React App",
+        "Google OAuth",
+        "JavaScript",
+        "authentication"
+      ],
+      "outcome": "Added third-party sign-in capability to a standard productivity application.",
+      "summary": "Integrated Google authentication into a React application and established the initial project structure.",
+      "value": "Shows frontend fundamentals and practical experience integrating external identity providers.",
+      "category": "Web",
+      "links": [
+        {
+          "label": "Google OAuth Todo Repository",
+          "url": "https://github.com/ICONicboites/Todo-List"
+        }
+      ]
+    },
+    {
+      "id": "smartfit",
+      "title": "SmartFit – Agentic AI Fitness Assistant",
+      "role": "AI / Streamlit Developer",
+      "contribution": "Maintained and improved the SmartFit Streamlit application, strengthened UI/documentation and environment setup, handled API-key/secrets configuration, and contributed a merged feature implementing Agentic AI with function calling and retrieval-augmented generation (RAG).",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Google Gemini",
+        "PyPDF2",
+        "ChromaDB",
+        "RAG",
+        "function calling",
+        "Dev Containers",
+        "Git"
+      ],
+      "outcome": "Delivered both repository-quality improvements and a merged collaborative AI contribution, including function calling and RAG integration.",
+      "summary": "Contributed to an AI-assisted fitness application across product setup, developer experience, security hygiene, and advanced generative-AI capabilities.",
+      "value": "Shows applied AI integration, RAG/function-calling experience, collaborative pull-request work, documentation, environment configuration, and repository maintenance.",
+      "category": "Data & AI",
+      "links": [
+        {
+          "label": "SmartFit AI Repository",
+          "url": "https://github.com/ICONicboites/SmartFit"
+        }
+      ]
+    },
+    {
+      "id": "pesolend",
+      "title": "PesoLend – Lending Management Application",
+      "role": "Full-Stack / Product Developer",
+      "contribution": "Implemented registration/authentication flows, admin loan approval and support tools, user-scoped data handling, payment methods, balance management, loan validation, interest and credit logic, responsive dashboard redesigns, theme support, and flexible payment options.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "React Router",
+        "WebSocket",
+        "Git/GitHub"
+      ],
+      "outcome": "Merged four feature/fix pull requests and delivered lending workflows covering authentication, loan operations, payments, admin controls, transaction history, validation, and UX improvements.",
+      "summary": "Developed major product and business-logic features for a lending application, including payment calculations, credit rules, administrative workflows, and responsive interface improvements.",
+      "value": "Strong evidence of product ownership, business-rule implementation, debugging, UI engineering, branching, and pull-request workflow.",
+      "category": "Full-stack",
+      "links": [
+        {
+          "label": "PesoLend Repository",
+          "url": "https://github.com/ICONicboites/PesoLend"
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Capstone Evaluation System – Deployment & Performance Features",
+      "role": "Full-Stack / Capstone Contributor",
+      "contribution": "Redesigned performance pages with team navigation and AI team summaries, added backend endpoints for questionnaires/responses/scores, improved evaluation displays, fixed spreadsheet and dashboard bugs, polished UI, added Docker deployment support, CORS environment configuration, and Netlify SPA routing.",
+      "stack": [
+        "React",
+        "REST APIs",
+        "Docker",
+        "Netlify",
+        "CORS",
+        "Git/GitHub",
+        "spreadsheet workflows"
+      ],
+      "outcome": "Delivered both product features and deployment fixes across a collaborative capstone codebase, including a dedicated Rivera performance redesign branch.",
+      "summary": "Contributed feature development, debugging, data-flow improvements, and deployment configuration to a collaborative evaluation platform.",
+      "value": "Shows team-based development, cross-layer troubleshooting, deployment skills, API integration, and ability to work in a large evolving codebase.",
+      "category": "Full-stack",
+      "links": [
+        {
+          "label": "Capstone Repository",
+          "url": "https://github.com/ICONicboites/deployment-caps2"
+        },
+        {
+          "label": "Capstone Presentation",
+          "url": "https://canva.link/o8htwzi8ygoxvtq"
+        }
+      ]
+    },
+    {
+      "id": "peso-tracker",
+      "title": "Peso Tracker – Personal Financial Control System",
+      "role": "Python / Data Application Developer",
+      "contribution": "Built transaction CRUD, persistent SQLite storage, weekly/monthly summaries, savings-rate and cash-flow metrics, rolling expense analytics, budget alerts, emergency-fund tracking, charts, and CSV export; later improved export formatting and Philippine timestamp conversion.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "SQLite",
+        "data analytics"
+      ],
+      "outcome": "Created an end-to-end personal finance dashboard with persistence, analytics, budgeting, visualization, and export functionality.",
+      "summary": "Developed a structured financial tracking application with business logic separated from data access and dashboard orchestration.",
+      "value": "Demonstrates Python, SQL, analytics, CRUD architecture, data visualization, and practical financial-domain problem solving.",
+      "category": "Data & AI",
+      "links": [
+        {
+          "label": "Peso Tracker Repository",
+          "url": "https://github.com/ICONicboites/Peso-tracker"
+        }
+      ]
+    },
+    {
+      "id": "cashier-queue",
+      "title": "Cashier Queue Simulator",
+      "role": "Frontend / Simulation Developer",
+      "contribution": "Built a web-based FIFO cashier queue simulator that adds customers, assigns the next customer to the cashier with the smallest queue, supports bulk assignment, and provides a responsive interface.",
+      "stack": [
+        "React",
+        "Vite",
+        "JavaScript",
+        "queue/FIFO logic",
+        "responsive UI"
+      ],
+      "outcome": "Implemented queue-management logic in an interactive browser application.",
+      "summary": "Created a React simulation that translates queueing rules into clear interactive behavior.",
+      "value": "Shows data-structure fundamentals, algorithmic thinking, component-based frontend development, and usable UI design.",
+      "category": "Web",
+      "links": [
+        {
+          "label": "Cashier Queue Repository",
+          "url": "https://github.com/ICONicboites/Cashier-Queue-Simulator"
+        }
+      ]
+    },
+    {
+      "id": "norteflow",
+      "title": "NorteFlow – Business Finance Dashboard",
+      "role": "Frontend / Application Developer",
+      "contribution": "Implemented a responsive business-finance dashboard, transaction history, Philippine peso currency display, inline business editing, mobile sidebar/navigation, dashboard filters, build-error fixes, Supabase setup, Netlify configuration, and CI/environment configuration.",
+      "stack": [
+        "React 19",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Supabase",
+        "React Hook Form",
+        "Zod",
+        "Recharts",
+        "Netlify"
+      ],
+      "outcome": "Evolved the application through multiple feature and fix commits covering data entry, dashboard UX, responsive design, build stability, and deployment readiness.",
+      "summary": "Developed and refined a modern TypeScript finance application with responsive UX, validation, database integration, analytics components, and deployment configuration.",
+      "value": "Shows modern frontend engineering, TypeScript debugging, responsive design, form validation, data visualization, Supabase integration, and deployment work.",
+      "category": "Web",
+      "links": [
+        {
+          "label": "NorteFlow Repository",
+          "url": "https://github.com/ICONicboites/NorteFlow"
+        }
+      ]
+    },
+    {
+      "id": "valentine",
+      "title": "Valentine Interactive Web Page",
+      "role": "Frontend Developer",
+      "contribution": "Created and uploaded a custom Valentine-themed static web experience with HTML and CSS.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "responsive web basics"
+      ],
+      "outcome": "Completed a small themed web project and published its source to GitHub.",
+      "summary": "Built a focused static web experience demonstrating basic frontend layout and styling skills.",
+      "value": "Shows foundational HTML/CSS capability and ability to complete and publish small web projects.",
+      "category": "Web",
+      "links": [
+        {
+          "label": "Valentine Web Project",
+          "url": "https://github.com/ICONicboites/Valentine"
+        }
+      ]
+    }
+  ]
+}
