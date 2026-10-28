@@ -1,0 +1,17 @@
+---
+import { Image } from 'astro:assets';
+import { dilgGallery } from '../data/dilgGallery';
+---
+<section class="dilg-gallery" aria-label="DILG project photo gallery">
+  <div class="gallery-heading"><h5>In the field</h5><p>Demonstrations & technical meetings · DILG Bobon</p></div>
+  <div class="gallery-grid">
+    {dilgGallery.map((photo, i) => <figure>
+      <a href={photo.image.src} target="_blank" rel="noopener noreferrer" aria-label={`View full-size photo: ${photo.caption} (opens in a new tab)`}>
+        <Image src={photo.image} alt={photo.alt} width={640} format="webp" quality={80} loading="lazy" />
+        <span class="gallery-expand" aria-hidden="true">↗</span>
+      </a>
+      <figcaption><span>{String(i + 1).padStart(2, '0')}</span>{photo.caption}</figcaption>
+    </figure>)}
+  </div>
+  <p class="gallery-note">Select a photo to view the full-size original.</p>
+</section>
