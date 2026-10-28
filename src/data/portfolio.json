@@ -1,6 +1,16 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/13Ad7X6YorqVMb368Fya5Vm2xQqWwGvHr32ee247sQXM/edit?gid=0",
   "snapshotDate": "2026-10-28",
+  "dilgReferences": [
+    {
+      "label": "Project post 01",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02VC5czJBWWrBKwiQLoFY3xZdjBGJYf3ZXqFJEVKUnHa15s43YGGzk9cXegjeuCV6al&id=61557197515954"
+    },
+    {
+      "label": "Project post 02",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0yRoARxj5cuQfesULfpnQgaR2mrp3TjK3vik4jGKvm6niY9mHRCvmwf96vvbyNZK5l&id=61557197515954"
+    }
+  ],
   "projects": [
     {
       "id": "kp-forms",

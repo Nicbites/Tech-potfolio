@@ -22,6 +22,7 @@ npm run preview # Serve the production build
 
 - `src/data/profile.ts`: name, contact details, degree, availability, and school. Employment dates are omitted because they have not been confirmed.
 - `src/data/portfolio.json`: the 15 development projects and digital-operations experience imported from the supplied Google Sheet on October 28, 2026. Includes contribution descriptions, outcomes, technologies, and original proof links.
+- `dilgReferences` in that JSON stores Nico’s two Facebook project references, displayed on the featured DILG card and in its expanded contribution details. Post titles and dates are omitted because Facebook did not expose their content during review.
 - `src/pages/index.astro`: featured work, experience, about, and contact copy.
 - `src/styles/global.css`: colors, layout, responsive behavior, and print styles.
 

@@ -135,6 +135,16 @@ h2 em { font-family:Georgia,'Times New Roman',serif; color:var(--gold); font-wei
 .tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:18px; }
 .tags span { border:1px solid var(--line); padding:4px 8px; border-radius:4px; font-size:9px; color:var(--muted); line-height:1.5; }
 .feature-copy>.text-link { margin-top:22px; }
+.project-references { margin-top:22px; padding:16px; background:linear-gradient(125deg,var(--glow-gold),transparent 80%),var(--panel); border:1px solid var(--line); border-radius:5px; }
+.references-heading { display:flex; align-items:center; gap:10px; }
+.facebook-mark { display:grid; place-items:center; width:29px; height:29px; flex-shrink:0; border:1px solid var(--line); border-radius:5px; color:var(--gold); font:700 23px/1 Arial,sans-serif; }
+.project-references .references-heading h5 { font-size:11px; font-weight:500; margin:0; color:var(--text); }
+.project-references .references-heading p { font-size:9px; color:var(--muted); margin:4px 0 0; line-height:1.6; }
+.reference-links { display:grid; gap:0; margin-top:13px; }
+.reference-links a { display:flex; justify-content:space-between; align-items:center; gap:14px; border-top:1px solid var(--line); padding-block:10px; font-size:11px; transition:color .2s; }
+.reference-links a:last-child { padding-bottom:0; }
+.reference-links a>span:last-child { color:var(--gold); }
+.reference-links a:hover { color:var(--gold); }
 .project-library { margin-top:85px; border-top:1px solid var(--line); padding-top:37px; }
 .library-heading { display:flex; align-items:flex-end; justify-content:space-between; gap:20px; }
 .library-heading h3 { font-weight:500; letter-spacing:-.04em; font-size:30px; margin-top:8px; }
