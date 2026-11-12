@@ -152,6 +152,19 @@ h2 em { font-family:Georgia,'Times New Roman',serif; color:var(--gold); font-wei
 .tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:18px; }
 .tags span { border:1px solid var(--line); padding:4px 8px; border-radius:4px; font-size:9px; color:var(--muted); line-height:1.5; }
 .feature-copy>.text-link { margin-top:22px; }
+
+@media (max-width:760px) {
+  .feature-card.feature-smartfit {
+    display:block;
+    padding:20px;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:5px;
+  }
+
+  .feature-smartfit .project-visual { display:none; }
+  .feature-card.feature-smartfit .feature-copy { padding:0; }
+}
 .project-references { margin-top:22px; padding:16px; background:linear-gradient(125deg,var(--glow-gold),transparent 80%),var(--panel); border:1px solid var(--line); border-radius:5px; }
 .references-heading { display:flex; align-items:center; gap:10px; }
 .facebook-mark { display:grid; place-items:center; width:29px; height:29px; flex-shrink:0; border:1px solid var(--line); border-radius:5px; color:var(--gold); font:700 23px/1 Arial,sans-serif; }
